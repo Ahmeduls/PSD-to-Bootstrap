@@ -1,0 +1,143 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .brand h2 {
+        padding-top: 70px;
+        font-size: 44px;
+    }
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .brand h2 {
+        padding-top: 0px;
+    }
+    .btn-primary {
+        margin-top: 0px;
+    }
+    .either {
+        left: 45%;
+    }
+    span.television {
+        left: 50%
+    }
+    .brand h2 {
+        padding-top: 8px;
+        font-size: 22px;
+    }
+    .brand h2 {
+        padding-top: 30px;
+        font-size: 28px;
+    }
+    .footer-padding {
+        padding: 0px 0px;
+    }
+    .carousel-control .glyphicon-chevron-right {
+        width: 40px;
+        height: 40px;
+        margin-top: -20px;
+        font-size: 30px;
+        background-color: #EAEDF0;
+        border-radius: 50%;
+        padding-top: 4px;
+        position: absolute;
+        left: 119px;
+        color: #454849;
+    }
+    .carousel-control .glyphicon-chevron-left {
+        width: 40px;
+        height: 40px;
+        margin-top: -24px;
+        font-size: 30px;
+        background-color: #EAEDF0;
+        border-radius: 50%;
+        padding-top: 5px;
+        position: absolute;
+        left: -39px;
+        color: #454849;
+    }
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .brand h2 {
+        padding-top: 0px;
+    }
+    .btn-primary {
+        margin-top: 0px;
+    }
+    .either {
+        left: 50%;
+    }
+    span.television {
+        left: 55%
+    }
+    .brand h2 {
+        padding-top: 8px;
+        font-size: 22px;
+    }
+    .brand p {
+        font-size: 12px;
+    }
+    button.btn {
+        border-radius: 22px;
+        padding: 6px 8px;
+    }
+    .icon_bar img {
+        padding-top: 30px;
+        width: 33px;
+    }
+    .section-padding {
+        padding: 26px 0px;
+    }
+    .col-md-6.col-sm-6.col-xs-12 {
+        text-align: center;
+    }
+    .col-md-5.col-sm-6.col-xs-12.col-md-offset-1 {
+        text-align: center;
+    }
+    .carousel-control .glyphicon-chevron-right {
+        width: 25px;
+        height: 25px;
+        margin-top: -12px;
+        font-size: 21px;
+        background-color: #EAEDF0;
+        border-radius: 50%;
+        padding-top: 2px;
+        position: absolute;
+        left: 11px;
+        color: #454849;
+    }
+    .carousel-control .glyphicon-chevron-left {
+        width: 25px;
+        height: 25px;
+        margin-top: -13px;
+        font-size: 20px;
+        background-color: #EAEDF0;
+        border-radius: 50%;
+        padding-top: 2px;
+        position: absolute;
+        left: 15px;
+        color: #454849;
+    }
+    button.btn {
+        margin-bottom: 10px;
+    }
+    slider h4 img {
+        margin-bottom: 12px;
+        margin-left: 28px;
+    }
+    .socila-icon {
+        text-align: center;
+        margin-right: 90px;
+    }
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}

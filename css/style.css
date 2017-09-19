@@ -1,0 +1,317 @@
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.clearfix {
+    clear: both
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'Yeseva One', cursive;
+}
+
+html,
+body {
+    height: 100%
+}
+
+body {
+    font-family: Helvetica;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+
+/*                    HEADER SECTION                      */
+
+.new-nav-style {
+    background-image: none;
+    border: 0px;
+    box-shadow: none;
+    border-radius: 0px;
+    background-color: transparent;
+    padding-top: 15px;
+}
+
+.nav li a {
+    color: #ddd!important;
+    font-size: 18px;
+    display: block;
+    padding: 6px 20px;
+}
+
+.nav li a:hover {
+    color: #ddd!important;
+    background-color: #3b454c!important;
+    border-radius: 25px;
+}
+
+.navbar-brand {
+    padding: 0px;
+}
+
+/*Brand*/
+
+.brand {
+    min-height: 500px;
+    background-color: #4c5b66;
+    position: relative;
+    padding-top: 90px;
+}
+
+.section-padding {
+    padding: 60px 0px;
+}
+
+.brand h2 {
+    padding-top: 80px;
+    color: white;
+    font-family: Helvetica;
+    font-size: 48px;
+}
+
+.brand p {
+    font-size: 14px;
+    line-height: 1.8;
+    font-family: Helvetica;
+}
+
+.either {
+    color: white;
+    position: absolute;
+    left: 30%;
+    bottom: 3%;
+    font-size: 13px;
+}
+
+span.television {
+    color: white;
+    position: absolute;
+    left: 35%;
+    bottom: 9px;
+    font-size: 13px;
+}
+
+button.btn {
+    border-radius: 25px;
+    padding: 6px 18px;
+}
+
+
+/*Icon-bar*/
+
+.icon_bar {
+    background-color: #dfdfdf;
+    position: relative;
+    min-height: 80px;
+}
+
+.icon_bar img {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.icon {
+    float: left;
+    width: 20%;
+    position: absolute;
+}
+
+.icon.icon-two {
+    left: 20%;
+}
+
+.icon.icon-three {
+    left: 46%;
+}
+
+.icon.icon-four {
+    left: 68%;
+}
+
+.icon.icon-five {
+    left: 76%;
+}
+
+.testimonial i {
+    width: 90px;
+    height: 90px;
+    border: 5px solid #7d8f9b;
+    border-radius: 50px;
+    font-size: 45px;
+    padding-top: 20px;
+    color: #7d8f9b;
+}
+
+.testimonial h4 {
+    color: #4b5a65;
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: Helvetica;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #569dd1;
+    border-color: #569dd1;
+    margin-top: 25px;
+}
+
+
+/*Slider*/
+
+slider h4 {
+    padding-left: 6px;
+    font-size: 20px;
+    color: #4b5a65;
+    font-family: Helvetica;
+    margin-bottom: 20px;
+}
+
+slider h4 img {
+    margin-bottom: 12px;
+}
+
+.item img {
+    width: 260px;
+}
+
+.carousel-control.left {
+    background-image: none;
+}
+
+.carousel-control.right {
+    background-image: none;
+}
+
+.carousel-control .glyphicon-chevron-right {
+    width: 50px;
+    height: 50px;
+    margin-top: -21px;
+    font-size: 30px;
+    background-color: #EAEDF0;
+    border-radius: 50%;
+    padding-top: 10px;
+    position: absolute;
+    left: 185px;
+    color: #454849;
+}
+
+.carousel-control .glyphicon-chevron-left {
+    width: 50px;
+    height: 50px;
+    margin-top: -30px;
+    font-size: 30px;
+    background-color: #EAEDF0;
+    border-radius: 50%;
+    padding-top: 10px;
+    position: absolute;
+    left: -60px;
+    color: #454849;
+}
+
+.fa.fa-twitter {
+    font-size: 35px;
+    color: #00aced;
+    background-color: none!important;
+    padding-right: 7px;
+}
+
+i.fa.fa-rss {
+    font-size: 35px;
+    color: #f9993c;
+    padding-right: 7px;
+}
+
+blog h4 {
+    margin-top: 8px;
+    font-size: 25px;
+    font-family: helvatica;
+}
+
+blog p {
+    font-family: helvatica;
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+blog h5 {
+    font-size: 18px;
+    font-family: helvatica;
+}
+
+
+/*Footer*/
+
+.footer-padding {
+    padding: 30px 0px;
+}
+
+footer i {
+    width: 30px;
+    height: 30px;
+    background-color: #a0db83;
+    border-radius: 50%;
+    padding: 9px;
+    color: white;
+    margin-left: 8px;
+}
+
+i.fa.fa-facebook {
+    background-color: #38548f;
+}
+
+i.fa.fa-linkedin {
+    background-color: #2686b9;
+}
+
+i.fa.fa-pinterest {
+    background-color: #f06fa0;
+}
+
+.border {
+    border-top: 1px solid gray;
+}
+
+.socila-icon
